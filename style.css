@@ -77,7 +77,37 @@ h1 {
 
 }
 
-.card:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+.card:hover {
+    box-shadow: rgba(88, 240, 46, 0.4) -5px 5px, rgba(62, 240, 46, 0.3) -10px 10px, rgba(78, 240, 46, 0.2) -15px 15px, rgba(78, 240, 46, 0.1) -20px 20px, rgba(82, 240, 46, 0.05) -25px 25px;
+}
 
+.card:hover h3 {
+    color: #0ce768;
+    text-shadow: 0 2px 8px #0ce768;
+}
+
+.card:hover img {
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #dddddd93;
+}
+
+.card:hover p {
+    color: #dddddd;
+}
+
+.card strong {
+    color: #0ce768;
+    font-weight: bold;
 }
